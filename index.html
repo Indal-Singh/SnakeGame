@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+<title>Snake Game Bu Indal Singh</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="body">
+<div class="level">Level:</div>
+<select id="speedCh">
+  <option value="Easy">Easy</option>
+  <option value="Normal" selected>Normal</option>
+  <option value="Hard">Hard</option>
+  <option value="Hardest">Hardest</option>
+</select>
+<button onclick="speedChange()">Go</button>
+
+<div id ="scoreBox">Score: 0</div>
+<div id ="highScore">High Score: 0</div>
+<div id="board"></div>
+</div>
+</body>
+<script src="indexjs.js">
+</script>
+</html>
